@@ -1,0 +1,32 @@
+Setup			vertical_equilibrium
+
+AspectRatio     	0.05  
+FlaringIndex		0.0
+Sigma0			1.0
+SigmaSlope		0.0
+NU			1.0e-5
+
+
+IndirectTerm		No
+
+### Mesh parameters
+
+Nx			1
+Ny			1
+Nz			50
+Xmin			-0.01
+Xmax			0.01
+Ymin			1.0
+Ymax			1.0
+Zmin			0.0
+Zmax			0.20
+
+Ntot			2000
+Ninterm	 		100
+DT			3.14159265359
+OutputDir		@outputs/vertical_equilibrium
+
+
+
+NDust			2
+DUST_TO_GAS		0.1
